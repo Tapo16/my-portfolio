@@ -83,9 +83,9 @@ nav a {
 
 .header {
 	background-color: #FFF8F3;
-	/* background-image: url('../images/header_bg.png'); */
+	background-image: url('../images/header_bg.png'),url('../images/developer.png');
 	background-repeat: no-repeat;
-	background-position: bottom right;
+	background-position: bottom right, top left;
 }
 
 .banner {
@@ -235,3 +235,6 @@ footer{
 	width: 100%;
 }
 
+button i{ 
+	padding:10px;
+}
